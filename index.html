@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <title>Soundboard</title>
+</head>
+<body>
+    <header>
+        <h1>Patrick's Soundboard</h1>
+    </header>
+
+    <div id="audioclips">
+        <audio id="audioclip1" src="audioclips/arrow_x.wav" autoplay="false" ></audio>
+        <audio id="audioclip2" src="audioclips/coin.wav" autoplay="false" ></audio>
+        <audio id="audioclip3" src="audioclips/champagne.wav" autoplay="false" ></audio>
+        <audio id="audioclip4" src="audioclips/can_pop.wav" autoplay="false" ></audio>
+        <audio id="audioclip5" src="audioclips/can_crush.wav" autoplay="false" ></audio>
+        <audio id="audioclip6" src="audioclips/camera1.wav" autoplay="false" ></audio>
+        <audio id="audioclip7" src="audioclips/fade_x.wav" autoplay="false" ></audio>
+        <audio id="audioclip8" src="audioclips/explosion_x.wav" autoplay="false" ></audio>
+        <audio id="audioclip9" src="audioclips/glass_shatter_c.wav" autoplay="false" ></audio>
+    </div>
+
+    <div id="soundboard">
+        <button id="button1"><a onclick="playsound1();">Shooting an Arrow</a></button>
+        <button id="button2"><a onclick="playsound2();">Coin in a Machine</a></button>
+        <button id="button3"><a onclick="playsound3();">Popping a Champagne Bottle</a></button>
+        <button id="button4"><a onclick="playsound4();">Opening Can of Pop</a></button>
+        <button id="button5"><a onclick="playsound5();">Crushing Can of Pop</a></button>
+        <button id="button6"><a onclick="playsound6();">Camera Shutter</a></button>
+        <button id="button7"><a onclick="playsound7();">Powering Down Electronics</a></button>
+        <button id="button8"><a onclick="playsound8();">Explosion</a></button>
+        <button id="button9"><a onclick="playsound9();">Shattering Glass</a></button>
+    </div>
+
+    <script src="soundboard.js"></script>
+</body>
+</html>
